@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="115.095">
+    <testcase classname="Account" name="acc01 - Login" time="30.84">
+        <system-out><![CDATA[Given i open maarch page....................................................passed
+When User enters name address "superadmin"..................................passed
+When User enters password "superadmin"......................................passed
+When User clicks to the login button........................................passed
+Then Verify that the user is connected......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="add user" name="add user in system" time="51.346">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given i open maarch page....................................................passed
+When User enters name login "superadmin"....................................undefined
+And User enters password login "superadmin".................................skipped
+And User clicks to the login button login...................................skipped
+And User click in administrateur............................................skipped
+And USer click in button add................................................skipped
+And user enter identifiant "1123"...........................................skipped
+And User enters password "1234".............................................skipped
+And User confirm password "1234"............................................skipped
+And User enters name "vinny"................................................skipped
+And User click plus button name.............................................skipped
+And User enters address "vinny@gmail.com"...................................skipped
+And User click to role users................................................skipped
+And User select role........................................................skipped
+And User click in service...................................................skipped
+And User choice service"dev"................................................skipped
+And User click plus button service..........................................skipped
+When User click in save button..............................................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="Google Search" name="Basic Search" time="32.341">
+        <system-out><![CDATA[Given I open google search page.............................................passed
+When I lookup The word "selenium"...........................................passed
+Then search rewrite display the word "selenium".............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
